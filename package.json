@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sheepsnap/webpage/issues"
   },
-  "homepage": "https://github.com/sheepsnap/webpage#readme"
+  "homepage": "https://github.com/sheepsnap/webpage#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

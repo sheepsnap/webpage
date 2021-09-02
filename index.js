@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
   res.render('./index');
 });
 
+app.get('/updates', (req, res) => {
+  res.render('./updates');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
